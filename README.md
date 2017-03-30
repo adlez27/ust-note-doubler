@@ -1,6 +1,6 @@
-# UST Note Doubler
-Double note lengths for UST files made on the Windows version of UTAU.
-Optionally, double the tempo as well, so that the apparent speed is the same as the original UST.
+# UST Note Multiplier
+Multiply note lengths in UST files.  Works for both UTAU and UTAU-Synth.
+Optionally, multiply the tempo as well, so that the apparent speed is the same as the original UST.
 
-Download and run DoubleNoteLength.jar to run.  Make sure the UST you want to double is in the same folder as the jar.  You can enter the file name without ".ust" at the end, but it can't have any spaces.
-Oh, and uh, for some reason everything breaks if you try to use non ascii characters in the UST.  Probably encoding issues.  I put up the source so that someone could fix it if they want.  I mainly made this because English USTs tend to involve lots of tiny notes.
+Download and run MultiplyNoteLength.jar to run.  Make sure the UST you want to multiply is in the same folder as the jar.  You can enter the file name without ".ust" at the end, but it can't have any spaces.
+If the UST is in Shift-JIS, the result will turn out blank if the UST contains Japanese characters.  Otherwise, lyrics should stay intact.
